@@ -1,0 +1,39 @@
+{
+  "name": "samsungtest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "events": "^3.3.0",
+    "https": "^1.0.0",
+    "local-devices": "^3.2.0",
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-network-info": "^5.2.1",
+    "stream": "^0.0.2",
+    "url": "^0.11.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.69.0",
+    "react-native-wss": "^1.0.14",
+    "react-test-renderer": "17.0.2",
+    "yauzl": "^2.10.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
