@@ -17,7 +17,7 @@ module.exports.viziosearch = function () {
             for (var i = 0; i < localDevices.length; i++) {
                 console.log(`${localDevices[i]}/state/device/power_mode`);
                 NativeControllerModule.makesslcall(
-                    `${localDevices[i]}/state/device/power_mode`,
+                    `${localDevices[i]}:7345/state/device/power_mode`,
                     async (err, result) => {
                         console.log(result);
                         if (result[0].success) {
