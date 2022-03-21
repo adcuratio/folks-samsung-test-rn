@@ -340,7 +340,6 @@ PODS:
     - React-jsi (= 0.67.3)
     - React-logger (= 0.67.3)
     - React-perflogger (= 0.67.3)
-  - Starscream (4.0.4)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -401,7 +400,6 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - Starscream
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -420,7 +418,6 @@ SPEC REPOS:
     - libevent
     - MMLanScan
     - OpenSSL-Universal
-    - Starscream
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -532,10 +529,9 @@ SPEC CHECKSUMS:
   React-RCTVibration: d0361f15ea978958fab7ffb6960f475b5063d83f
   React-runtimeexecutor: af1946623656f9c5fd64ca6f36f3863516193446
   ReactCommon: 650e33cde4fb7d36781cd3143f5276da0abb2f96
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   Yoga: 90dcd029e45d8a7c1ff059e8b3c6612ff409061a
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 88dc2838ea7c8104c4fe05decea15ebbf1684e53
+PODFILE CHECKSUM: 9be86bbba35001561e347ae3f5902f09cfd4891d
 
 COCOAPODS: 1.11.2
