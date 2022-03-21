@@ -89,7 +89,7 @@ class NativeControllerModule: NSObject, MMLANScannerDelegate {
     let url = URL(string: ipaddress)!
     var request = URLRequest(url: url)
     request.httpMethod = "GET"
-    request.timeoutInterval=4;
+    request.timeoutInterval=5;
    
     let task = URLSession.shared.dataTask(with: request) { data, response, error in
         if let data = data {
