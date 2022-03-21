@@ -10,9 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "crypto": "^1.0.1",
     "events": "^3.3.0",
-    "https": "^1.0.0",
     "local-devices": "^3.2.0",
     "react": "17.0.2",
     "react-native": "0.67.3",

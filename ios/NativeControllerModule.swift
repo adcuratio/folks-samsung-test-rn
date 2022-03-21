@@ -75,7 +75,7 @@ class NativeControllerModule: NSObject, WebSocketDelegate,MMLANScannerDelegate {
   
   @objc func socketConnect(_ ipaddress: String, callback: @escaping RCTResponseSenderBlock) -> Void {
       print(ipaddress)
-      var request = URLRequest(url: URL(string: "wss://"+ipaddress)!)
+      var request = URLRequest(url: URL(string:ipaddress)!)
       request.timeoutInterval = 10
       let pinner = FoundationSecurity(allowSelfSigned: true)
       socket = WebSocket(request: request, certPinner: pinner)

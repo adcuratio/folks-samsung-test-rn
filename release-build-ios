@@ -1,0 +1,5 @@
+cd ios
+xcodebuild clean
+cd ..
+react-native run-ios --configuration Release
+echo " --udid a74f67cc1ba1ee9d64c5567f9870038279fa6042 "
