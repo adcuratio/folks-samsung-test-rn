@@ -20,6 +20,7 @@ module.exports.viziosearch = function () {
                     `${localDevices[i]}:7345/state/device/power_mode`,
                     async (err, result) => {
                         console.log(result);
+                        alert(result[0].toString());
                         if (result[0].success) {
                             alert("FOUND VIZIO TV--" + result[0].ip);
                             result = result[0];
